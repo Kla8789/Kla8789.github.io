@@ -2,3 +2,73 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.header {
+  background-color: #FFC6AC;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Subtitle for website */
+.subheader {
+  overflow: hidden;
+  background-color: #FFF6DC;
+  color: black; 
+  text-align: center;
+}
+
+/* Navigation header at the top of my website */
+.nav {
+  overflow: hidden;
+  background-color: #9E9FA5;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Content of the website */
+.content {
+  background-color: #fffcf5;
+  height: 400px;
+}
+
+/* footer for copyright or citations */
+.footer {
+  background-color: #C4C1A4;
+  text-align: center;
+  padding: 10px;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titleImage {
+  border-radius: 25%;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.indent {
+  text-indent: 0.25in
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+table, tr, th, td {
+  border: 1px solid;
+  width: 300px;
+}
