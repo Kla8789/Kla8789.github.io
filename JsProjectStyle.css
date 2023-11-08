@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('Mountain.jpg');
+  /*
+  Original:  Florian KriechbaumerDerivative work:  Aristeas, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#input {
+  height: 225px;
+  width: 200px;
+  background-color: #fff9ed;
+  margin: auto;
+  border: outset black;
+}
+
+.text {
+  position: relative;
+  margin-left: 30%;
+  line-height: 2;
+}
+
+#Animation {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.hide {
+  display: none;
+}
